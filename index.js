@@ -29,7 +29,7 @@ app.get('/api/hello', async (req, res) => {
       throw new Error('API key is not set');
     }
 
-    // Log that we are about to fetch weather data
+    // Fetch weather data
     console.log(`Fetching weather data for Location: ${location}`);
     const weatherResponse = await axios.get(`http://api.openweathermap.org/data/2.5/weather?q=${location}&appid=${apiKey}&units=metric`);
     if (weatherResponse.status !== 200) {
