@@ -48,10 +48,10 @@ typings/
 .eslintcache
 
 # dotenv environment variables file
-.env
+# .env
 
 # vercel specific files
-.vercel
+# .vercel
 
 # Mac OS X
 .DS_Store
