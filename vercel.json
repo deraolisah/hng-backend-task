@@ -3,8 +3,5 @@
   "builds": [
     { "src": "index.js", "use": "@vercel/node" }
   ],
-  "routes": [{"src": "/(.*)", "dest": "/"}],
-  "env": {
-    "OPENWEATHER_API_KEY": "@openweather_api_key"
-  }
+  "routes": [{"src": "/(.*)", "dest": "/"}]
 }
